@@ -1,0 +1,32 @@
+.Message {
+  padding-bottom: 24px; 
+  font-size: 18px;
+  display: flex;
+}
+
+.Avatar {
+  background-color: blue;
+  width: 40px; 
+  height: 40px; 
+  float: left;
+  margin-right: 10px; 
+  flex-basis: 40px;
+  border-radius: 5px;
+}
+
+.MessageHeaderBodyContainer {
+  flex: 1;
+}
+
+.PersonName {
+  font-weight: bold;
+}
+
+.DateCreated {
+  color: gray;
+  font-size: 14px;
+}
+
+.MessageBody {
+  line-height: 24px;
+}
